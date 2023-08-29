@@ -1,0 +1,194 @@
+body {
+    font-family: Merriweather, Georgia, Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: #FEFEFE;
+
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: Montserrat, system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+main {
+    margin: 0px;
+    padding: 0px
+}
+
+section {
+    padding: 0px 300px;
+    margin: 40px 0px;
+}
+
+h1 {
+    color: blue;
+}
+
+.h1_gros{
+   font-size: 35px;
+   margin: 0px
+}
+
+a {
+    color: #005b99;
+}
+
+a:hover {
+    text-decoration: none;
+}
+
+.bg-light-grey {
+    background-color: lightgray;
+}
+
+.center {
+    text-align: center;
+}
+
+.bordure {
+    border: 4px solid red;
+    margin: 20px auto;
+    padding: 10px;
+    width: 500px
+}
+
+/*############### Barre de navigation ################*/
+nav {
+    /* background-color: lightblue; */
+    padding: 40px 20px;
+    border-bottom: 2px solid #ECECEC;
+}
+
+nav a {
+    text-decoration: none;
+}
+
+nav span {
+    float: right
+}
+
+nav span a {
+    margin-right: 5px;
+}
+
+nav .contact {
+    border: 1pt solid #005b99;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+nav .contact:hover {
+    background-color:#005b99;
+    color:white
+
+}
+
+/*############### présentation et compétences ################*/
+
+.presentation {
+    background-color: #EAF5FA; 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.presentation_image {
+    border: 2px solid lightseagreen;
+    border-radius: 50%;
+    height: 190px;
+    width: 185px;
+    /* margin: 0px 300px; */
+
+
+}
+
+/*############### projets ################*/
+
+#projets {
+    background-color: white;
+}
+
+#projets .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+#projets article {
+    display: grid;
+    grid-template-columns: auto 1fr;
+    padding: 10px 0px;
+}
+
+#projets .plus_projet,
+.plus_articles {
+    text-align: right;
+}
+
+.projet_description {
+    padding: 0px 20px;
+}
+
+
+/*############### articles ################*/
+
+#articles {
+    background-color: #EAF5FA;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+/*############### Contacts ################*/
+
+#contacts {
+    background-color: white;
+
+}
+
+ .articles_text a {
+    text-decoration: none;
+} 
+
+/*############### Footer ################*/
+footer {
+    background-color: #F8F9FA;
+    padding: 40px;
+    border-top: 1px solid #ECECEC
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a svg {
+    color: black
+}
+
+.icones {
+    float: right;
+}
+
+.github svg{
+    color: #1F2328;
+}
+.linkedin svg{
+    color: #0177B4;
+    
+}
+.up svg {
+    margin-left:10px;
+}
+
+.up svg:hover{
+   color:#005b99;
+}
